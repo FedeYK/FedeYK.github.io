@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Users Backoffice - Log In{% endblock %}
+
+    {% block main%}
+        <main>
+            <h3>Log In to your account</h3>
+            <form action="handle-login" method="POST">
+                <div>
+                <label for="username">Username: </label>
+                <input name="username" type="text">
+                </div>
+
+                <div>
+                <label for="password">Password: </label>
+                <input name="password" type="password">
+                </div>
+
+                <div>
+                <input type="submit" value="Login">
+                </div>
+
+            </form>
+
+
+        </main>
+    {% endblock %}

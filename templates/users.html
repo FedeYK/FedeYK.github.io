@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Users Backoffice - User Info{% endblock %}
+
+    {% block main%}
+        <main>
+            <h3>User Data one way</h3>
+            <p>User ID: {{user_id}}</p>
+            <p>Full Name: {{surname}}, {{name}}</p>
+            <p>Date of Birth: {{date_birth}}</p>
+            <p>Email: {{email}}</p>
+
+            <br>
+            <h3>User Data other way</h3>
+            <p>User ID: {{other[0]}}</p>
+            <p>Full Name: {{other[3]}}, {{other[2]}}</p>
+            <p>Date of Birth: {{other[1]}}</p>
+            <p>Email: {{other[4]}}</p>
+
+        </main>
+    {% endblock %}
