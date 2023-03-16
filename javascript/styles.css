@@ -1,15 +1,23 @@
+
 body {
     font-family: 'Arial', sans-serif;
+    background-image: url("hg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #word {
     font-size: 2rem;
     letter-spacing: 2rem;
+    color: aliceblue;
 }
 
 #message {
     font-size: 1.2rem;
     font-weight: bold;
+    color: aliceblue;
 }
 
 button {
