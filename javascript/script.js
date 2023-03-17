@@ -102,6 +102,7 @@ async function resetGame() {
     lives = 7;
 
     const buttons = document.querySelectorAll("#keyboard button");
+    // When I reset the game, I enable all the buttons and change the class to btn-secondary.
     buttons.forEach((btn) => {
         btn.disabled = false;
         btn.classList = "btn btn-secondary";
