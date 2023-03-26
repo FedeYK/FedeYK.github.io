@@ -1,25 +1,36 @@
-# Hangman Game
+# <ins>**Hangman Game**</ins>
 
-> Federico R. Barca
+> **Federico R. Barca
 Javascript
-Master in Computer Science & Business Technology - IE University
-> 
+Master in Computer Science & Business Technology - IE University**
+>
 
-### Link to the game
+## <a name='Table of Contents'></a>Table of Contents
+
+<img src="https://github.com/FedeYK/FedeYK.github.io/blob/master/javascript/images/7.png" width="100" border="10"/>
+
+* [Link to the game](#game)
+* [Link to the GitHub Repository](#github)
+* [Hangman Game Description](#description)
+* [HTML Template](#html)
+* [Functions & script.js file Descriptions](#funct)
+* [Ideas for Hangman 2.0](#ideas)
+
+### <a name='game'></a>Link to the game
 
 [Hangman Game](http://federicobarca.com.ar/javascript/hangman.html)
 
-### Link to the GitHub Repository
+### <a name='github'></a>Link to the GitHub Repository
 
-[FedeYK.github.io/javascript at master · FedeYK/FedeYK.github.io](https://github.com/FedeYK/FedeYK.github.io/tree/master/javascript)
+[GitHub Repository](https://github.com/FedeYK/FedeYK.github.io/tree/master/javascript)
 
-## **Hangman Game Description**
+## <a name='description'></a>**Hangman Game Description**
 
 This is an enhanced JavaScript Hangman game that challenges players to guess a word of varying length based on the selected difficulty level. The player selects individual letters from an on-screen keyboard to guess the word. The player has 7 lives, which are depleted for each incorrect guess. If the player correctly guesses the word before running out of lives, they win the game. If not, the game reveals the correct word, and the player loses.
 
 It is a dynamic web application that interacts with the user by updating the content and visual elements in real-time without requiring a page reload. The dynamic behavior of the game is achieved through the connection between the HTML template and the **`script.js`** file.
 
-### HTML template
+### <a name='html'></a>**HTML template**
 
 The template uses Bootstrap, a popular CSS framework, for styling and responsive design. The structure of the HTML file is divided into several parts that make up the visual elements of the game. 
 
@@ -27,12 +38,13 @@ The connection between the HTML template and the `**script.js`** file is establi
 
 This placement ensures that the HTML elements are fully loaded and accessible to the JavaScript code when it runs. The **`script.js`** file interacts with the HTML elements using their unique IDs, such as **`hangman`**, **`word`**, **`keyboard`**, **`reset`**, **`difficulty`**, and **`message`**. These IDs are used to reference the corresponding HTML elements, allowing the JavaScript code to update their properties, styles, and content dynamically.
 
-### **Function & script.js file Descriptions**
+### <a name='funct'></a>**Functions & script.js file Descriptions**
 
-<aside>
+
+```
 💡 All the code is commented and its functionallity explained on the script.js file
+```
 
-</aside>
 
 The **`script.js`** file contains the JavaScript code responsible for handling the game's logic, event listeners, and interactions with the HTML elements.
 
@@ -49,7 +61,7 @@ The following functions control the game’s logic.
 
 Event listeners in the **`script.js`** file detect user actions, such as button clicks and difficulty selection changes. These actions trigger appropriate functions that update the game state, modify the HTML elements, and provide real-time feedback to the user, creating a dynamic and engaging gaming experience.
 
-### **Ideas for Hangman 2.0**
+### <a name='ideas'></a>**Ideas for Hangman 2.0**
 
 1. **Dynamic scoring system**: Create a scoring system that factors in the difficulty level, the number of correct guesses, remaining lives, and the time taken to solve the puzzle. This would encourage players to improve their skills and compete against themselves or others.
 2. **Time-limited gameplay**: Introduce a countdown timer that adds an element of urgency and excitement to the game. Players must solve the puzzle before the timer runs out, or they lose. The timer duration could be adjusted based on the difficulty level for a balanced experience.
