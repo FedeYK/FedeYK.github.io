@@ -1,3 +1,6 @@
+// Federico Barca
+// MCSBT
+
 // Description: This is the JavaScript file for the Hangman game.
 
 // Global variables
